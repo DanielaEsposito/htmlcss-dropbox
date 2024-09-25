@@ -1,16 +1,26 @@
 /* reset*/
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  .container {
-    margin: 0px auto;
-    padding: 0px 10px;
-    width: 1000px;
-    max-width: 100%;
-  }
-  img {
-    width: 100%;
-    display: block;
-  }
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0px auto;
+  padding: 0px 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+img {
+  width: 100%;
+  display: block;
+}
+/*HEADER*/
+.header .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+  background-color: aqua;
+}
