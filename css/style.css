@@ -32,13 +32,12 @@ img {
     background-color: rgb(137, 163, 163);
     padding: 20px 0px;
 }
-.all-you-need .container{
+.all-you-need > .container{
     min-height: 600px;
     background-color: rgb(74, 119, 119);
     padding: 0px;
     position: relative;
     top: 100px;
-  
 }
 .container .title{
     width: 100%;
@@ -58,5 +57,34 @@ background-color: rgb(98, 98, 134);
 flex-basis: 50%;
 min-height: 400px;
 background-color: blueviolet;
+}
+/*SECOND SECTION*/
+.business-plane{
+    background-color: cadetblue;
+    padding: 20px 0px;
+}
+.business-plane .container{
+    min-height: 600px;
+    margin-top: 100px;
+}
+.business-plane.title{
+    width: 100%;
+    min-height: 50px;
+    background-color: blueviolet;
+}
+.plane{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+    
 
+
+}
+.card-container{
+    flex-basis: 30%;
+    background-color: rgb(76, 99, 133);
+    
 }
