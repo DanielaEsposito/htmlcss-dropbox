@@ -20,7 +20,43 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position:sticky;
   padding: 10px;
   background-color: aqua;
+  
+}
+/*MAIN*/
+
+/*FIRST SECTION*/
+.all-you-need{
+    background-color: rgb(137, 163, 163);
+    padding: 20px 0px;
+}
+.all-you-need .container{
+    min-height: 600px;
+    background-color: rgb(74, 119, 119);
+    padding: 0px;
+    position: relative;
+    top: 100px;
+  
+}
+.container .title{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(41, 77, 77);
+}
+.all-you-need.content{
+    display: flex;
+    background-color: azure;
+    padding: 0px;
+}
+.all-you-need.text{
+flex-basis: 50%;
+background-color: rgb(98, 98, 134);
+}
+.all-you-need.img{
+flex-basis: 50%;
+min-height: 400px;
+background-color: blueviolet;
+
 }
