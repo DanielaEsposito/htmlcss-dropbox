@@ -162,12 +162,12 @@ a {
 }
 
 /*BOH*/
-.boh {
+.pass {
   min-height: 400px;
   background-color: blue;
   padding-top: 20px;
 }
-.boh .container {
+.pass .container {
   background-color: azure;
   min-height: 200px;
 }
