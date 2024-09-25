@@ -66,12 +66,12 @@ img {
   min-height: 600px;
   margin-top: 100px;
 }
-.business-plane.title {
+.business-plane.title,.option-title {
   width: 100%;
   min-height: 50px;
   background-color: blueviolet;
 }
-.plane {
+.plane,.option-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -79,7 +79,7 @@ img {
   gap: 49px;
   min-height: 400px;
 }
-.card-container {
+.card-container,.option-card {
   flex-basis: 30%;
   background-color: rgb(76, 99, 133);
 }
@@ -118,4 +118,12 @@ img {
 .column-s{
     flex-basis:30% ;
     background-color: aquamarine;
+}
+/*OTIONS*/
+.option{
+    background-color: darkslategrey;
+    padding-top: 20px;
+}
+.option .container{
+    min-height: 800px;
 }
