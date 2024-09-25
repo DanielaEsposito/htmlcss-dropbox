@@ -19,6 +19,9 @@ a {
 img {
   width: 100%;
 }
+li {
+  list-style: none;
+}
 /*HEADER*/
 .header .container {
   width: 100%;
@@ -46,12 +49,12 @@ a {
 .btn.accedi {
   display: inline;
 }
-.logo-header{
-    width: auto;
+.logo-header {
+  width: auto;
 }
 /*MAIN*/
 
-/*FIRST SECTION*/
+/*second SECTION*/
 .hero {
   background-color: rgb(137, 163, 163);
   padding: 20px 0px;
@@ -70,7 +73,7 @@ a {
 }
 .hero.content {
   display: flex;
-  background-color: azure;
+  
   padding: 0px;
 }
 .hero-text-container {
@@ -115,15 +118,20 @@ a {
 }
 .card-body {
   border: 1px solid black;
+  padding: 10px;
 }
-.team-container {
-  margin-top: 20px;
-  background-color: rgb(39, 171, 175);
+.team{
+    background-color: rgb(82, 63, 63);
+}
+.team .container {
+    padding-top: 20px;
+  
 }
 .team-header {
   background-color: burlywood;
 }
-.body-header {
+.team-body {
+  display: flex;
   background-color: beige;
 }
 /*partner*/
