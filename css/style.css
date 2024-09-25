@@ -22,6 +22,18 @@ img {
 li {
   list-style: none;
 }
+h2{
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+h3{
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
 /*HEADER*/
 .header .container {
   width: 100%;
@@ -52,51 +64,55 @@ a {
 .logo-header {
   width: auto;
 }
+section{
+    padding: 30px 0px;
+}
 /*MAIN*/
 
-/*second SECTION*/
-.hero {
+/*hero SECTION*/
+.hero-section {
   background-color: rgb(180, 208, 231);
   padding: 20px 0px;
 }
-.hero > .container {
+.hero-section > .container {
   min-height: 600px;
-  background-color: rgb(74, 119, 119);
-  padding: 0px;
-  position: relative;
-  top: 100px;
+  padding-top: 70px;
+ 
 }
 .container.title {
   width: 100%;
-  min-height: 100px;
-  background-color: rgb(41, 77, 77);
-}
-.hero.content {
-  display: flex;
   
-  padding: 0px;
+}
+.content-container{
+    display:flex ;
+    position: relative;
+    top: 70px;  
+}
+.hero.title{
+    font-size: 3.7rem;
 }
 .hero-text-container {
   flex-basis: 40%;
 }
 
-.hero.img {
-}
 /*SECOND SECTION*/
-.business-plane {
-  
-  padding: 20px 0px;
-}
+
 .business-plane .container {
   min-height: 600px;
   margin-top: 100px;
+  
 }
-.business-plane.title,
+.business-plane{
+    width: 100%;
+}
+/*.business-plane.title,
 .option-title {
   width: 100%;
-  min-height: 50px;
-  background-color: blueviolet;
+}*/
+.input{
+    margin: 30px 30px;
 }
+
 .plane,
 .option-container {
   display: flex;
@@ -106,39 +122,50 @@ a {
   gap: 49px;
   min-height: 400px;
 }
+.plane{
+  align-items: stretch;
+}
 .card-container,
 .option-card {
   flex-basis: 30%;
-  background-color: rgb(76, 99, 133);
+  align-self: stretch;
+  border: 1px solid lightgray;
 }
 
 .card-header {
-  border: 1px solid black;
+  border: 1px solid lightgray;
   text-align: center;
-}
-.card-body {
-  border: 1px solid black;
   padding: 10px;
 }
-.team{
-    background-color: rgb(82, 63, 63);
-}
-.team .container {
-    padding-top: 20px;
+.card-body{
   
+  padding: 30px 15px;
+}
+.duration{
+    color: gray;
+}
+.card-items, .link.card{
+padding:15px 0px;
+}
+.btn.card{
+    margin: 20px 0px;
+}
+
+/*team*/
+.team .container {
+  padding-top: 20px;
 }
 .team-header {
-  background-color: burlywood;
+  border: 1px solid lightgray;
+
 }
 .team-body {
   display: flex;
-  background-color: beige;
+
+  border: 1px solid lightgray;
 }
 /*partner*/
-.partner {
-  background-color: darkgrey;
-  padding-top: 20px;
-}
+
 .partner > .container {
   display: flex;
   justify-content: center;
@@ -146,11 +173,11 @@ a {
 }
 .column-l {
   flex-basis: 70%;
-  background-color: brown;
+  
 }
 .column-s {
   flex-basis: 30%;
-  background-color: aquamarine;
+  
 }
 /*OTIONS*/
 .option {
@@ -207,14 +234,13 @@ a {
   flex-basis: 33.33%;
 }
 
-.prove{
-    background-color: rgb(180, 208, 231);
-    padding: 100px 0px;
+.prove {
+  background-color: rgb(180, 208, 231);
+  padding: 100px 0px;
 }
-.prove .container{
-    display: flex;
-    justify-content: space-between;
-    
+.prove .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*footer*/
