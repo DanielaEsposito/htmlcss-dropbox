@@ -127,3 +127,14 @@ img {
 .option .container{
     min-height: 800px;
 }
+
+/*BOH*/
+.boh{
+    min-height: 400px;
+    background-color: blue;
+    padding-top: 20px;
+}
+.boh .container{
+    background-color: azure;
+    min-height: 200px;
+}
