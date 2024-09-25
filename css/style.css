@@ -180,7 +180,7 @@ a {
 .bunner > .container {
   width: 100%;
   background-color: brown;
-  min-height: 800px;
+  min-height: 400px;
   padding: 0%;
 }
 .first-row {
