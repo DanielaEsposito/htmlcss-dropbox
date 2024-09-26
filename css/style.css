@@ -24,23 +24,25 @@ img {
 li {
   list-style: none;
 }
-h2{
-    font-size: 2rem;
-    padding: 30px 0px;
+h2 {
+  font-size: 2rem;
+  padding: 30px 0px;
 }
-h3{
-    font-size: 1.2rem;
+h3 {
+  font-size: 1.2rem;
 }
-h4{
-    font-size: 0.9rem;
-    font-weight: 400;
+h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
-
-.btn{
+.btn {
   padding: 5px 10px;
   background-color: rgb(35, 35, 226);
-    color: white;
-    border: 0px;
+  color: white;
+  border: 0px;
+}
+section {
+  padding: 40px 0px;
 }
 
 /*HEADER*/
@@ -73,51 +75,44 @@ a {
 .logo-header {
   width: auto;
 }
-section{
-    padding: 30px 0px;
-    
-}
-
 
 /*HERO SECTION*/
 .hero-section {
   background-color: rgb(180, 208, 231);
-
 }
 .hero-section > .container {
   min-height: 600px;
   padding-top: 70px;
- 
 }
 .container.title {
   width: 100%;
-  
 }
-.content-container{
-    display:flex ;
-    position: relative;
-    top: 70px;  
+.content-container {
+  display: flex;
+  position: relative;
+  top: 70px;
 }
-.hero.title{
-    font-size: 3.7rem;
+.hero.title {
+  font-size: 3.7rem;
 }
 .hero-text-container {
   flex-basis: 40%;
 }
-.hero.text , .btn.hero{
-  margin-bottom: 20px ;
+.hero.text,
+.btn.hero {
+  margin-bottom: 20px;
 }
-.arrow{
+.arrow {
   font-size: 3rem;
   padding-top: 30px;
 }
-.hero-img{
+.hero-img {
   width: 60%;
 }
 /*BUSINESS PLAN*/
 
-.input{
-    margin: 30px 30px;
+.input {
+  margin: 30px 30px;
 }
 .plane,
 .option-container {
@@ -138,31 +133,31 @@ section{
   text-align: center;
   padding: 10px;
 }
-.card-body{
+.card-body {
   padding: 30px 20px;
 }
-.duration{
-    color: gray;
+.duration {
+  color: gray;
 }
-.card-items, .link.card{
-padding:15px 0px;
+.card-items,
+.link.card {
+  padding: 15px 0px;
 }
-.btn.card{
-    margin: 20px 0px;
+.btn.card {
+  margin: 20px 0px;
 }
 /*TEAM*/
 .team-header {
   border: 1px solid lightgray;
   text-align: center;
   padding: 10px 0px;
-
 }
 .team-body {
   display: flex;
   padding: 20px;
   border: 1px solid lightgray;
 }
-.team-p{
+.team-p {
   padding: 20px 0px 30px 0px;
   font-weight: 600;
 }
@@ -172,40 +167,38 @@ padding:15px 0px;
 .partner-container {
   display: flex;
   justify-content: center;
-  
 }
-.partner-subtitle,.partner-subtitle{
+.partner-subtitle,
+.partner-subtitle {
   padding: 20px 0px;
 }
 
 .column-l {
   flex-basis: 70%;
   padding: 0px 30px;
-  
 }
 .column-s {
   flex-basis: 30%;
-  
 }
 /*OFFERT*/
 
-.option-title{
-  padding:30px 0px;
+.option-title {
+  padding: 30px 0px;
 }
 .option .container {
   min-height: 800px;
 }
-.option-card{
-  padding:20px;
+.option-card {
+  padding: 20px;
   border: 0px;
 }
 /*PASS*/
 
-.pass .container h2{
+.pass .container h2 {
   padding: 30px 0px 50px 0px;
 }
-.pass .container a{
-  color:rgb(46, 24, 126);
+.pass .container a {
+  color: rgb(46, 24, 126);
   padding: 0%;
   text-decoration: underline;
 }
@@ -215,21 +208,23 @@ padding:15px 0px;
   width: 100%;
   padding: 0%;
 }
-.row{
-  display:flex
+.row {
+  display: flex;
 }
-.column-center{
+.column-center {
   padding: 60px;
-  
 }
 
-.column-left , .column-center, .column-right{
+.column-left,
+.column-center,
+.column-right {
   display: flex;
   flex-wrap: wrap;
   width: calc(100vw / 3);
   height: calc(100vw / 3);
 }
-.column-left .brand-square , .column-right .brand-square{
+.column-left .brand-square,
+.column-right .brand-square {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -247,23 +242,25 @@ padding:15px 0px;
   align-items: center;
   color: rgb(80, 12, 32);
 }
-.button-prove{
+.button-prove {
   padding: 30px 0px;
 }
 /*ASK*/
-.container > .question{
-  padding:30px 0px;
- border-top: 1px solid gray;
- border-bottom: 1px solid gray;
+.question {
+  padding: 20px 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 /*footer*/
 
-.footer{
+.footer {
   background-color: rgb(35, 39, 42);
   color: rgb(255, 255, 255);
 }
-
+.chevron {
+  text-align: right;
+}
 .footer-column {
   display: flex;
   flex-basis: 20%;
@@ -283,6 +280,6 @@ padding:15px 0px;
   text-align: left;
   color: white;
 }
-.footer-items.title{
+.footer-items.title {
   padding-left: 10px;
 }
