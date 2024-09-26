@@ -231,6 +231,27 @@ a {
   align-items: center;
   padding: 20px;
 }
+.red{
+  background-color: red;
+}
+.green{
+  background-color: rgb(124, 199, 124);
+}
+.borgundi{
+background-color: rgb(82, 19, 32);
+}
+.blu{
+  background-color: blu;
+}
+.yellow{
+  background-color: yellow;
+}
+.light-blu{
+  background-color: lightblue;
+}
+.deep-blu{
+  background-color: rgb(21, 21, 61);
+}
 /*PROVE*/
 .Prove {
   background-color: rgb(180, 208, 231);
