@@ -105,10 +105,7 @@ section{
 .business-plane{
     width: 100%;
 }
-/*.business-plane.title,
-.option-title {
-  width: 100%;
-}*/
+
 .input{
     margin: 30px 30px;
 }
@@ -157,22 +154,37 @@ padding:15px 0px;
 }
 .team-header {
   border: 1px solid lightgray;
+  text-align: center;
+  padding: 10px 0px;
 
 }
 .team-body {
   display: flex;
-
+  padding: 20px;
   border: 1px solid lightgray;
 }
+.team-p{
+  padding: 20px 0px 30px 0px;
+  font-weight: 600;
+}
+
 /*partner*/
 
-.partner > .container {
+.partner-container {
   display: flex;
   justify-content: center;
-  min-height: 300px;
+  
 }
+.partner-title{
+  padding: 20px 0px;
+}
+.partner-subtitle{
+  padding: 20px 0px;
+}
+
 .column-l {
   flex-basis: 70%;
+  padding: 0px 30px;
   
 }
 .column-s {
@@ -180,19 +192,25 @@ padding:15px 0px;
   
 }
 /*OTIONS*/
+
 .option {
-  background-color: darkslategrey;
   padding-top: 20px;
+}
+.option-title{
+  padding:30px 0px;
 }
 .option .container {
   min-height: 800px;
 }
+.option-card{
+  padding:20px;
+  border: 0px;
+}
+
 
 /*BOH*/
 .pass {
   min-height: 400px;
-  background-color: blue;
-  padding-top: 20px;
 }
 .pass .container {
   background-color: azure;
