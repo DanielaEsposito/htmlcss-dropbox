@@ -44,10 +44,7 @@ h4 {
   color: white;
   border: 0px;
 }
-.btn:hover{
-  border: 1px solid black;
-  cursor: pointer;
-}
+
 section {
   padding: 40px 0px;
 }
@@ -238,6 +235,9 @@ a {
   align-items: center;
   padding: 20px;
   color: white;
+}
+.invert{
+  filter: brightness(0) invert(1);
 }
 .red{
   background-color: red;
