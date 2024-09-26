@@ -227,6 +227,9 @@ a {
   width: calc(100vw / 3);
   height: calc(100vw / 3);
 }
+.column-center > img{
+  width:50%;
+}
 .column-left .brand-square,
 .column-right .brand-square {
   width: 50%;
