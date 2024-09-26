@@ -36,7 +36,7 @@ h4 {
   font-weight: 400;
 }
 .btn {
-  padding: 5px 10px;
+  padding: 5px 15px;
   background-color: rgb(35, 35, 226);
   color: white;
   border: 0px;
@@ -267,21 +267,28 @@ background-color: rgb(82, 19, 32);
 .button-prove {
   padding: 30px 0px;
 }
+.btn.prove{
+  padding: 5px 20px;
+  background-color: rgb(231, 230, 230);
+  color: black;
+}
 /*ASK*/
 .question {
   padding: 20px 0px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+  display: flex;
 }
 
 /*footer*/
 
 .footer {
+  padding-bottom: 30px;
   background-color: rgb(35, 39, 42);
   color: rgb(255, 255, 255);
 }
 .chevron {
-  text-align: right;
+  margin-left: 230px;
 }
 .footer-column {
   display: flex;
@@ -304,4 +311,8 @@ background-color: rgb(82, 19, 32);
 }
 .footer-items.title {
   padding-left: 10px;
+  
+}
+.footer-items.title > a > h3{
+  font-size: 1.5rem;
 }
